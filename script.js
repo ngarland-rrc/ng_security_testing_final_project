@@ -21,7 +21,7 @@ function validateUserSurvey() {
 
     // Validate First Name
     const firstNameInputNode = document.querySelector("#first-name_field");
-    const firstNameInputValue = escapeHTML(firstNameInputNode.value);
+    const firstNameInputValue = firstNameInputNode.value;
 
     const firstNameValidation = validateFirstName(firstNameInputValue, firstNameInputNode);
     if (!firstNameValidation["isValid"]) {
@@ -36,7 +36,7 @@ function validateUserSurvey() {
 
     // Validate Last Name
     const lastNameInputNode = document.querySelector("#last-name_field");
-    const lastNameInputValue = escapeHTML(lastNameInputNode.value);
+    const lastNameInputValue = lastNameInputNode.value;
 
     const lastNameValidation = validateLastName(lastNameInputValue, firstNameInputNode);
     if (!lastNameValidation["isValid"]) {
@@ -51,7 +51,7 @@ function validateUserSurvey() {
 
     // Validate Email
     const emailInputNode = document.querySelector("#email_field");
-    const emailInputValue = escapeHTML(emailInputNode.value);
+    const emailInputValue = emailInputNode.value;
 
     const emailValidation = validateEmail(emailInputValue, emailInputNode);
     if (!emailValidation["isValid"]) {
