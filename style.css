@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2%;
+}
+
+main {
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.623);
+    width: 90%;
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+
+}
+
+fieldset {
+    border: none;
+    text-align: left;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 2%;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin: 1%;
+    margin-top: 2%;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+input[type="submit"] {
+    background-color: #044992;
+    color: #fff;
+    padding: 3%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.input-error {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 1%;
+    display: block;
+}

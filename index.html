@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Survey</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Hotdog Survey</h1>
+        <form id="user-survey">
+            <fieldset>
+                <legend>User Information</legend>
+                <div class="input-container">
+                    <label for="first-name_field">First Name</label>
+                    <input type="text" name="first_name" id="first-name_field">
+                </div>
+                <div class="input-container">
+                    <label for="last-name_field">Last Name</label>
+                    <input type="text" name="last_name" id="last-name_field">
+                </div>
+                <div class="input-container">
+                    <label for="email_field">Email</label>
+                    <input type="text" name="email" id="email_field">
+                </div>
+                <div class="input-container">
+                    <label for="birthdate_field">Date of Birth</label>
+                    <input type="date" name="birthdate" id="birthdate_field">
+                </div>
+                <div class="input-container">
+                    <label for="gender_field">Gender</label>
+                    <input type="radio" id="male" name="gender" value="Male" aria-label="Male"> Male
+                    <input type="radio" id="female" name="gender" value="Female" aria-label="Female"> Female
+                    <input type="radio" id="other" name="gender" value="Other" aria-label="Other">Other
+                </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>User Survey</legend>
+                <div class="input-container">
+                    <label for="hotdog_field">Do you think a hotdog is a sandwich?</label>
+                    <input type="radio" id="yes" name="answer" value="Yes" aria-label="Yes"> Yes
+                    <input type="radio" id="no" name="answer" value="No" aria-label="No"> No
+                </div>
+                <div class="input-container">
+                    <label for="condiment_field">What do you usually put on your hotdog?</label>
+                    <input type="checkbox" id="ketchup" name="condiment" value="Ketchup" aria-label="Ketchup"> Ketchup
+                    <input type="checkbox" id="mustard" name="condiment" value="Mustard" aria-label="Mustard"> Mustard
+                    <input type="checkbox" id="relish" name="condiment" value="Relish" aria-label="Relish"> Relish
+                    <input type="checkbox" id="mayo" name="condiment" value="Mayo" aria-label="Mayo"> Mayo
+                    <input type="checkbox" id="pickles" name="condiment" value="Pickles" aria-label="Pickles"> Pickles
+                </div>
+                <div class="input-container">
+                    <label for="breads">What type of bread?</label>
+                    <select name="breads" id="breads">
+                        <option value="No Bread">No Bread</option>
+                        <option value="White">White</option>
+                        <option value="No Bread">Whole Wheat</option>
+                    </select>
+                </div>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

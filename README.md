@@ -5,4 +5,4 @@ any security vulnerabilities.
 
 ## Author 
 
-Nick Garland 
+Nick Garland
